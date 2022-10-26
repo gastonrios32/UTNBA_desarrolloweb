@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="/index.html">HOME</a></li>
+            <li><a href="/about.html">SOBRE MI </a></li>
+        </ul>
+    </nav>
+    <section>
+        <article>
+            <h1>BIENVENIDO A LA WEB DE PRUEBA </h1>
+            <br>
+        </article>
+        <article>
+        <div class="index_images">
+            <p>IMAGENES</p>
+            <img src="img/dragon1.webp" alt="dragon1">
+            <img src="img/dragon2.jpg" alt="dragon2">
+            <img src="img/dragon3.webp" alt="dragon3">
+        </div>
+
+        <div class="index_videos">
+            <p>TRAILER</p>
+            <iframe width="560" height="315" src="//www.youtube.com/embed/k22DE2rc-i4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+            <form class="form_index" action="/datosenviados.html" method="post">
+                <p>DEJAME UN MENSAJE </p>
+                <ul>
+                    <li>
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="user_name">
+                    </li>
+                    <li>
+                    <label for="mail">Correo electrónico:</label>
+                    <input type="email" id="mail" name="user_mail">
+                    </li>
+                    <li>
+                    <label for="msg">Mensaje:</label>
+                    <textarea id="msg" name="user_message" cols="30" rows="10"></textarea>
+                    </li>
+                </ul>
+                <input class="button" type="submit" value="Enviar la información">
+            </form>               
+        </article>
+    </section>
+    <footer>
+        <hr>
+        <br>
+        <a href="https://github.com/gastonrios32/"><img src="/ico/969021121530099614-128.png" alt="github"></img></a>
+        <a href="https://www.linkedin.com/in/gastonrios32/"><img src="/ico/545912701530099617-128.png" alt="Linkedin"></a>
+        <h4>Todos los derechos estan reservados. 2022</h4>
+    </footer>
+</body>
+</html>
